@@ -1,0 +1,5 @@
+{
+  "require": {
+    "mikefunk/bustersphp": "1.1.*"
+  }
+}

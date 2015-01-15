@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "8938b0e5054868fe8ac8c7aa190d093d",
+    "packages": [
+        {
+            "name": "mikefunk/bustersphp",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikedfunk/BustersPhp.git",
+                "reference": "39ddd78c26196fea59029f99885cdacb4483b63c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikedfunk/BustersPhp/zipball/39ddd78c26196fea59029f99885cdacb4483b63c",
+                "reference": "39ddd78c26196fea59029f99885cdacb4483b63c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "illuminate/support": "4.1.*",
+                "mockery/mockery": "0.9.*@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MikeFunk\\BustersPhp\\": "src/MikeFunk/BustersPhp"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Funk",
+                    "email": "mike@mikefunk.com"
+                }
+            ],
+            "description": "A simple class to generate js/css tags with cache names from busters.json. This is related to gulp-buster.",
+            "time": "2014-05-22 17:00:27"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "platform": [],
+    "platform-dev": []
+}
